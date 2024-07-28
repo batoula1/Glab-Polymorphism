@@ -54,9 +54,9 @@ public class Shape {
         System.out.println("Shape unknown! Cannot compute area!");
         return 0;
     }
-    public void displayShapeName()
+    public void displayshapName()
     {
         System.out.println("I am a Shape.");
     }
-
 }
+
