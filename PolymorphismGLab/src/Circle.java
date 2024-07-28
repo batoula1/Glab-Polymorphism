@@ -1,4 +1,4 @@
-public class Circle extends Shape{
+public class Circle extends Shape {
     protected double radius;
     private final double PI = Math.PI;
 
@@ -16,7 +16,7 @@ public class Circle extends Shape{
         return super.area; //reference to  parent class variable
     }
     @Override
-    public void displayShapeName() {
+    public void displayshapName() {
         System.out.println("Drawing a Circle of radius " + this.radius);
     }
     /** Returns a self-descriptive string */
@@ -24,5 +24,4 @@ public class Circle extends Shape{
     public String toString() {
         return "Circle[ radius = " + radius + super.toString() + "]";
     }
-
 }
